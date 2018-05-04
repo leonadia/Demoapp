@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>TODO</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <html>
+      <body>
+         
+         <form action = "http://127.0.0.1:8081/process_get" method = "GET">
+            title: <input type = "text" name = "title">  <br>
+            Description: <input type = "text" name = "description"> <br>
+            status: <input type = "text" name = "status">
+            <input type = "submit" value = "Submit">
+         </form>
+         
+      </body>
+   </html>
   </body>
 </html>

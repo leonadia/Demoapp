@@ -5,9 +5,12 @@
   "scripts": {
     "start": "nodemon ./bin/www"
   },
+  "main": "index",
+  "author": "leonadia",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "cookie-parser": "~1.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
@@ -15,6 +18,7 @@
     "mongoose": "^5.0.17",
     "mongoose-paginate": "^5.0.3",
     "morgan": "~1.9.0",
+    "multer": "^1.3.0",
     "nodemon": "^1.17.3",
     "serve-favicon": "^2.5.0"
   }
