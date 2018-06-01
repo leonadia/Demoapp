@@ -41,7 +41,7 @@ exports.createTodo = async function(todo){
     try{
 
         // Saving the Todo 
-        var savedTodo = await newTodo.save()
+        var savedTodo = await ToDo.save(newTodo);
 
         return savedTodo;
     }catch(e){
