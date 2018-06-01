@@ -8,7 +8,7 @@ var ejs = require('ejs')
 //app.set('view engine', 'ejs');
 //app.use(express.static('public'));
 router.get('/', function (req, res) {
-    res.render("C:/PROJECTS/NodeJs/DEMOAPP/todoapp/views/index.ejs")
+    res.render("../views/index.ejs")
 })
 
 router.get('/process_get', function (req, res) {
